@@ -1,0 +1,39 @@
+html{
+  font-family: 'メイリオ';
+}
+
+header{
+  width:100%;
+  position:relative;
+}
+
+.header_bg{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  z-index: -50;
+}
+
+.logo{
+  width:15.6vw;
+  margin:2.6vw 0 0 2.6vw;
+}
+
+.wht_opacity{
+  opacity:.8;
+  color:#fff;
+}
+
+.subtitle{
+  margin:4.2vw 0 0 2.6vw;
+}
+
+.subtitle1{
+  font-size:3.1vw;
+}
+
+.subtitle2{
+  font-size:1vw;
+}
+
