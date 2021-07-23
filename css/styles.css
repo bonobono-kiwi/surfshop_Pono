@@ -1,5 +1,6 @@
 html{
   font-family: 'メイリオ';
+  color:#707070;
 }
 
 header{
@@ -54,7 +55,7 @@ header{
 .nav{
   display:flex;
   justify-content: space-around;
-  margin-bottom:10px;
+  margin-bottom:2vw;
 }
 
 .nav > a{
@@ -76,9 +77,168 @@ header{
 
 
 
+/* Conceptのcss */
+#concept{
+  margin:5vw auto;
+  width:90%;
+  display:flex;
+}
+
+.concept-left{
+  width:50%;
+  display:flex;
+  justify-content: center;
+}
+
+.concept-left > span {
+  display:inline-block;
+  width:2vw;
+  height:10vw;
+  line-height: 2vw;
+  writing-mode: vertical-rl;
+  background: #c1d1e0;
+  color:#FFF;
+  font-size:1vw;
+  padding-top:1vw;
+}
+
+.concept-left > h1 {
+  font-size:2vw;
+  font-family:"游明朝";
+  writing-mode:vertical-rl;
+  margin-right:1vw;
+  line-height: 2.8vw;
+}
+
+.concept-right{
+  width:50%;
+  font-size:.8vw;
+  line-height: 1.5vw;
+}
+
+/* Schoolのcss */
+#school{
+  margin-top:20vw;
+}
+
+#school > h1{
+  position:relative;
+  top:-5vw;
+  text-align:center;
+  font-size:3vw;
+}
+
+#school > span{
+  position:relative;
+  top:-5vw;
+  display:block;
+  margin:0 auto;
+  height:2vw;
+  width:10vw;
+  font-size:1.2vw;
+  line-height:2vw;
+  color:#fff;
+  text-align:center;
+  background: #bfc9bd;
+}
+
+.school-wrap{
+  position:relative;
+  left:5vw;
+  background:#bfc9bd;
+  padding:5vw 0 2vw 0;
+}
+
+
+.school-wrap > p{
+  color:#fff;
+  position:relative;
+  font-size:1.5vw;
+  top:-2.5vw;
+  text-align:right;
+  margin-right:6vw;
+}
+
+.school-wrap > img{
+  position:relative;
+  left:-5vw;
+  width:100%;
+}
 
 
 
+/* Accessのcss */
+#access{
+  margin-top:10vw;
+  background:#efe5cb;
+  padding:10vw 0 0 0;
+}
+
+.access-wrap{
+  background:#fff;
+  width:90%;
+  margin:0 auto;
+
+}
+
+.access-wrap > h1{
+  text-align:center;
+  font-size:3vw;
+  position:relative;
+  top:-2vw;
+}
+
+.access-wrap > span{
+  position:relative;
+  top:-2vw;
+  display:block;
+  margin:0 auto;
+  height:2vw;
+  width:10vw;
+  font-size:1.2vw;
+  line-height:2vw;
+  color:#fff;
+  text-align:center;
+  background: #c1d1e0;
+}
+
+.access-flex{
+  display:flex;
+}
+
+.access-left{
+  padding:5% 2.5% 5% 5%;
+}
+
+.access-right{
+  padding:5% 5% 5% 2.5%;
+}
+
+.access-left > img{
+  max-width:100%;
+}
+
+dl{
+  font-size:1.8vw;
+}
+
+dt{
+  margin-top:2vw;
+}
+
+dt:first{
+  margin-top:0;
+}
+
+dd{
+  margin-left:1.8vw;
+}
+
+
+
+
+
+/* footerのcss */
 footer{
   background:#c1d1e0;
   height:5vw;
