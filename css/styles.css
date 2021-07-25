@@ -362,7 +362,7 @@ header{
 
 .articles h2{
   width:90%;
-  border-bottom:solid 1px #707070;
+  border-bottom:solid 1px #c1d1e0;
   margin:3vw auto 0 auto;
   text-align:center;
   font-size:1.5vw;
@@ -374,7 +374,6 @@ article p{
   width:90%;
   text-align:right;
   font-size:1vw;
-  color:#c1d1e0;
 }
 
 .news-buttom{
