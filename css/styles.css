@@ -464,8 +464,7 @@ article p{
 }
 
 
-.number1{
-  color:#c1d1e0;
+.number{
   margin:2vw auto;
 }
 
@@ -475,21 +474,12 @@ article p{
   padding-top:1.5vw;
 }
 
-.number2{
-  color:#efe5cb;
-  margin:2vw auto;
-}
-
 .nameB{
   border-top:solid 3px #efe5cb;
   margin-top:2.5vw;
   padding-top:1.5vw;
 }
 
-.number3{
-  color:#bfc9bd;
-  margin:2vw auto;
-}
 
 .nameC{
   border-top:solid 3px #bfc9bd;
