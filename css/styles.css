@@ -75,7 +75,7 @@ header{
 }
 
 .nav > a:hover{
-  background:#bfc9bd;
+  background:#ACCCA6;
   border-radius: 50px;
 }
 
@@ -101,7 +101,7 @@ header{
   height:10vw;
   line-height: 2vw;
   writing-mode: vertical-rl;
-  background: #c1d1e0;
+  background: #A5C6E5;
   color:#FFF;
   font-size:1vw;
   padding-top:1vw;
@@ -133,7 +133,7 @@ header{
 
 .supports-wrap{
   width:100%;
-  background:#c1d1e0;
+  background:#A5C6E5;
   color:#fff;
   position:relative;
   left:-5vw;
@@ -234,7 +234,7 @@ header{
   line-height:2vw;
   color:#fff;
   text-align:center;
-  background: #bfc9bd;
+  background: #ACCCA6;
 }
 
 #school > img{
@@ -247,7 +247,7 @@ header{
 .school-wrap{
   position:relative;
   left:5vw;
-  background:#bfc9bd;
+  background:#ACCCA6;
   padding:5vw 0 2vw 0;
 }
 
@@ -324,7 +324,7 @@ header{
   line-height:2vw;
   color:#fff;
   text-align:center;
-  background: #c1d1e0;
+  background: #A5C6E5;
 }
 
 .articles{
@@ -373,7 +373,7 @@ article p{
   width:90%;
   text-align:right;
   font-size:1vw;
-  color:#c1d1e0;
+  color:#A5C6E5;
 }
 
 .news-buttom{
@@ -385,14 +385,14 @@ article p{
   line-height:5vw;
   font-size:1.5vw;
   border-radius:5vw;
-  background:#c1d1e0;
+  background:#A5C6E5;
   color:#fff;
 }
 
 .news-buttom:hover{
   background:#fff;
-  border:solid 1px #c1d1e0;
-  color:#c1d1e0;
+  border:solid 1px #A5C6E5;
+  color:#A5C6E5;
 }
 
 
@@ -418,7 +418,7 @@ article p{
   line-height:2vw;
   color:#fff;
   text-align:center;
-  background: #efe5cb;
+  background: #EFD79A;
   margin-bottom:5vw;
 }
 
@@ -465,34 +465,34 @@ article p{
 
 
 .number1{
-  color:#c1d1e0;
+  color:#A5C6E5;
   margin:2vw auto;
 }
 
 .nameA{
-  border-top:solid 3px #c1d1e0;
+  border-top:solid 3px #A5C6E5;
   margin-top:2.5vw;
   padding-top:1.5vw;
 }
 
 .number2{
-  color:#efe5cb;
+  color:#EFD79A;
   margin:2vw auto;
 }
 
 .nameB{
-  border-top:solid 3px #efe5cb;
+  border-top:solid 3px #EFD79A;
   margin-top:2.5vw;
   padding-top:1.5vw;
 }
 
 .number3{
-  color:#bfc9bd;
+  color:#ACCCA6;
   margin:2vw auto;
 }
 
 .nameC{
-  border-top:solid 3px #bfc9bd;
+  border-top:solid 3px #ACCCA6;
   margin-top:2.5vw;
   padding-top:1.5vw;
 }
@@ -500,7 +500,7 @@ article p{
 
 
 .bg{
-  background:#efe5cb;
+  background:#EFD79A;
   width:100%;
   height: 20vw;
   position:relative;
@@ -513,7 +513,7 @@ article p{
 
 /* Accessのcss */
 #access{
-  background:#efe5cb;
+  background:#EFD79A;
   padding:10vw 0 0 0;
 }
 
@@ -541,7 +541,7 @@ article p{
   line-height:2vw;
   color:#fff;
   text-align:center;
-  background: #c1d1e0;
+  background: #A5C6E5;
 }
 
 .access-flex{
@@ -582,7 +582,7 @@ dd{
 
 /* footerのcss */
 footer{
-  background:#c1d1e0;
+  background:#A5C6E5;
   height:5vw;
 }
 
