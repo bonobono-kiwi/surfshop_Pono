@@ -68,14 +68,14 @@ header{
   text-align: center;
   width:15vw;
   background:#efe5cd;
-  color:white;
+  color:#4c4c4c;
   font-size:2vw;
   padding:1vw 2vw;
   transition: .4s;
 }
 
 .nav > a:hover{
-  background:#ACCCA6;
+  background:#bfc9bd;
   border-radius: 50px;
 }
 
@@ -101,8 +101,8 @@ header{
   height:10vw;
   line-height: 2vw;
   writing-mode: vertical-rl;
-  background: #A5C6E5;
-  color:#FFF;
+  background: #c1d1e0;
+  color:#4c4c4c;
   font-size:1vw;
   padding-top:1vw;
 }
@@ -133,7 +133,7 @@ header{
 
 .supports-wrap{
   width:100%;
-  background:#A5C6E5;
+  background:#c1d1e0;
   color:#fff;
   position:relative;
   left:-5vw;
@@ -146,6 +146,7 @@ header{
   top:-2.5vw;
   text-align:right;
   margin-right:1vw;
+  color:#4c4c4c;
 }
 
 
@@ -232,9 +233,9 @@ header{
   width:10vw;
   font-size:1.2vw;
   line-height:2vw;
-  color:#fff;
+  color:#4c4c4c;
   text-align:center;
-  background: #ACCCA6;
+  background: #bfc9bd;
 }
 
 #school > img{
@@ -247,13 +248,13 @@ header{
 .school-wrap{
   position:relative;
   left:5vw;
-  background:#ACCCA6;
+  background:#bfc9bd;
   padding:5vw 0 2vw 0;
 }
 
 
 .school-wrap > p{
-  color:#fff;
+  color:#4c4c4c;
   position:relative;
   font-size:1.5vw;
   top:-2.5vw;
@@ -322,9 +323,9 @@ header{
   width:10vw;
   font-size:1.2vw;
   line-height:2vw;
-  color:#fff;
+  color:#4c4c4c;
   text-align:center;
-  background: #A5C6E5;
+  background: #c1d1e0;
 }
 
 .articles{
@@ -373,7 +374,7 @@ article p{
   width:90%;
   text-align:right;
   font-size:1vw;
-  color:#A5C6E5;
+  color:#c1d1e0;
 }
 
 .news-buttom{
@@ -385,14 +386,14 @@ article p{
   line-height:5vw;
   font-size:1.5vw;
   border-radius:5vw;
-  background:#A5C6E5;
-  color:#fff;
+  background:#c1d1e0;
+  color:#4c4c4c;
 }
 
 .news-buttom:hover{
   background:#fff;
-  border:solid 1px #A5C6E5;
-  color:#A5C6E5;
+  border:solid 1px #c1d1e0;
+  color:#c1d1e0;
 }
 
 
@@ -416,9 +417,9 @@ article p{
   width:10vw;
   font-size:1.2vw;
   line-height:2vw;
-  color:#fff;
+  color:#4c4c4c;
   text-align:center;
-  background: #EFD79A;
+  background: #efe5cb;
   margin-bottom:5vw;
 }
 
@@ -465,34 +466,34 @@ article p{
 
 
 .number1{
-  color:#A5C6E5;
+  color:#c1d1e0;
   margin:2vw auto;
 }
 
 .nameA{
-  border-top:solid 3px #A5C6E5;
+  border-top:solid 3px #c1d1e0;
   margin-top:2.5vw;
   padding-top:1.5vw;
 }
 
 .number2{
-  color:#EFD79A;
+  color:#efe5cb;
   margin:2vw auto;
 }
 
 .nameB{
-  border-top:solid 3px #EFD79A;
+  border-top:solid 3px #efe5cb;
   margin-top:2.5vw;
   padding-top:1.5vw;
 }
 
 .number3{
-  color:#ACCCA6;
+  color:#bfc9bd;
   margin:2vw auto;
 }
 
 .nameC{
-  border-top:solid 3px #ACCCA6;
+  border-top:solid 3px #bfc9bd;
   margin-top:2.5vw;
   padding-top:1.5vw;
 }
@@ -500,7 +501,7 @@ article p{
 
 
 .bg{
-  background:#EFD79A;
+  background:#efe5cb;
   width:100%;
   height: 20vw;
   position:relative;
@@ -513,7 +514,7 @@ article p{
 
 /* Accessのcss */
 #access{
-  background:#EFD79A;
+  background:#efe5cb;
   padding:10vw 0 0 0;
 }
 
@@ -539,9 +540,9 @@ article p{
   width:10vw;
   font-size:1.2vw;
   line-height:2vw;
-  color:#fff;
+  color:#4c4c4c;
   text-align:center;
-  background: #A5C6E5;
+  background: #c1d1e0;
 }
 
 .access-flex{
@@ -582,13 +583,13 @@ dd{
 
 /* footerのcss */
 footer{
-  background:#A5C6E5;
+  background:#c1d1e0;
   height:5vw;
 }
 
 footer > p{
   text-align:center;
-  color:#fff;
+  color:#4c4c4c;
   font-size:1vw;
   line-height:5vw;
 }
