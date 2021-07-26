@@ -1,0 +1,202 @@
+@media screen and (max-width:959px){
+
+  /* conceptのcss */
+  #concept{
+    flex-wrap:wrap;
+  }
+
+  .concept-left{
+    width:90%;
+  }
+
+  .concept-left > h1{
+    font-size:4vw;
+    line-height:5.5vw;
+  }
+
+  .concept-left > span{
+    height:15vw;
+    width:3vw;
+    line-height:3vw;
+  }
+
+
+  .concept-right{
+    width:auto;
+    margin:8vw auto 0 auto;
+    font-size:2vw;
+    line-height:4vw;
+  }
+
+  .supports-wrap{
+    left:0;
+    padding-bottom:5vw;
+  }
+
+  .supports-wrap > p{
+    margin:auto 5vw;
+    line-height: 4vw;
+  }
+
+  .supports{
+    left:auto;
+    flex-wrap:wrap;
+    justify-content: center;
+  }
+
+  .support{
+    width:90%;
+    flex:inherit;
+  }
+
+  .support:nth-child(3){
+    background-position: center;
+  }
+
+  .support > h2{
+    font-size:4vw;
+  }
+
+  .support > span{
+    font-size:2vw;
+  }
+
+  .support > p{
+    font-size:2vw;
+    line-height:4vw;
+    margin:10vw 5vw 10vw 5vw;
+  }
+
+  .support > a{
+    width:40vw;
+    height:8vw;
+    line-height:8vw;
+    font-size:3vw;
+  
+  }
+
+  /* schoolのcss */
+  .school-wrap{
+    left:0;
+    padding-bottom:5vw;
+  }
+
+  .school-wrap > p{
+    margin:auto 5vw;
+    text-align:left;
+  }
+  
+  .school-menu{
+    width:90%;
+    margin:0 auto;
+    left:0;
+  }
+
+  .school-menu > dl{
+    font-size:2vw;
+  }
+
+  .school-menu dt{
+    margin-top:1vw;
+  }
+  
+  .school-menu dt,dd{
+    line-height:4vw;
+  }
+
+  .school-menu > a{
+    margin:5vw auto;
+    width:40vw;
+    height:8vw;
+    line-height:8vw;
+    font-size:3vw;
+  }
+
+  /* newsのcss */
+  .articles{
+    flex-wrap:wrap;
+  }
+
+  .articles > a{
+    display:block;
+    width:90%;
+    margin:0 auto 5vw auto;
+  }
+
+  .articles > a:last-child{
+    margin-right: auto;
+  }
+
+  .articles h2{
+    font-size:2.5vw;
+    padding-bottom:1vw;
+    border-bottom:solid 2px #c1d1e0;
+  }
+
+  .articles article{
+    width:100%;
+  }
+
+  .articles article >img{
+    height:90vw;
+    margin:5vw auto;
+  }
+
+  article p{
+    font-size:1.5vw;
+  }
+
+  .news-button{
+    margin:5vw auto;
+    width:40vw;
+    height:8vw;
+    line-height:8vw;
+    font-size:3vw;
+  }
+
+  /* membersのcss */
+  .member-info{
+    border:solid 2px #fff;
+    color:#fff;
+    width:25vw;
+    height:25vw;
+    padding:1vw;
+    margin:0 auto;
+    background:none;
+    text-align:center;
+    position:relative;
+    top:50%;
+    transform:translate(0,-50%);
+    font-size:1.2vw;
+  }
+  
+  .right{
+    right:0;
+  }
+
+  .nameA, .nameB, .nameC{
+    position:relateive;
+    bottom:0;
+    margin-bottom:2vw;
+
+  }
+  
+  /* accessのcss */
+  .access-flex{
+    flex-wrap:wrap;
+  }
+
+  .access-left{
+    width:90%;
+    padding:5%;
+    margin:0 auto;
+  }
+
+  .access-right{
+    width:90%;
+    padding:0 5% 5% 5%;
+    margin:0 auto;
+  }
+
+
+}

@@ -230,7 +230,7 @@ header{
   display:block;
   margin:0 auto;
   height:2vw;
-  width:10vw;
+  width:20vw;
   font-size:1.2vw;
   line-height:2vw;
   color:#4c4c4c;
@@ -251,6 +251,7 @@ header{
   background:#bfc9bd;
   padding:5vw 0 2vw 0;
 }
+
 
 
 .school-wrap > p{
@@ -320,7 +321,7 @@ header{
   display:block;
   margin:0 auto;
   height:2vw;
-  width:10vw;
+  width:20vw;
   font-size:1.2vw;
   line-height:2vw;
   color:#4c4c4c;
@@ -376,7 +377,7 @@ article p{
   font-size:1vw;
 }
 
-.news-buttom{
+.news-button{
   display:block;
   text-align:center;
   margin:5vw auto 0 auto;
@@ -389,7 +390,7 @@ article p{
   color:#4c4c4c;
 }
 
-.news-buttom:hover{
+.news-button:hover{
   background:#fff;
   border:solid 1px #c1d1e0;
   color:#c1d1e0;
@@ -413,7 +414,7 @@ article p{
   display:block;
   margin:0 auto;
   height:2vw;
-  width:10vw;
+  width:20vw;
   font-size:1.2vw;
   line-height:2vw;
   color:#4c4c4c;
@@ -526,7 +527,7 @@ article p{
   display:block;
   margin:0 auto;
   height:2vw;
-  width:10vw;
+  width:20vw;
   font-size:1.2vw;
   line-height:2vw;
   color:#4c4c4c;
