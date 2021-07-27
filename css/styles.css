@@ -51,6 +51,10 @@ header{
   font-size:1vw;
 }
 
+#open{
+  display:none;
+}
+
 .nav-container{
   position:absolute;
   bottom:0;
@@ -79,7 +83,9 @@ header{
   border-radius: 50px;
 }
 
-
+.overlay{
+  display:none;
+}
 
 
 /* Conceptのcss */

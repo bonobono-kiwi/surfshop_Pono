@@ -1,4 +1,95 @@
 @media screen and (max-width:959px){
+  /* headerのcss */
+  .nav-container{
+    display: none;
+  }
+
+  #open{
+    display:block;
+    font-size:10vw;
+    border-radius:5px;
+    border:solid .5vw #707070;
+    background:#fff;
+    color:#707070;
+    position:fixed;
+    top:5vw;
+    right:5vw;
+    z-index: 50;
+  }
+
+  #open.hide{
+    display:none;
+  }
+
+  .overlay{
+    display:block;
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    background:rgba(193,209,224,0.9);
+    z-index:51;
+    text-align: center;
+    padding:10vw;
+    opacity:0;
+    pointer-events: none;
+    transition: opacity .6s;
+  }
+
+  .overlay.show{
+    opacity:1;
+    pointer-events: auto;
+  }
+
+  .overlay #close{
+    position:absolute;
+    top:5vw;
+    right:5vw;
+    font-size:10vw;
+    border-radius:5px;
+    border:solid .5vw #707070;
+    color:#707070;
+  }
+
+  .overlay nav{
+    position:relative;
+    top:50%;
+    transform:translateY(-50%);
+  }
+
+  .overlay li{
+    font-size:5vw;
+    margin-bottom:5vw;
+    opacity:0;
+    transform: translateY(5vw);
+    transition: opacity .3s, transform .3s;
+  }
+
+  .overlay.show li{
+    opacity:1;
+    transform:none;
+  }
+
+  .overlay.show li:nth-child(1){
+    transition-delay: .1s;
+  }
+
+  .overlay.show li:nth-child(2){
+    transition-delay: .2s;
+  }
+
+  .overlay.show li:nth-child(3){
+    transition-delay: .3s;
+  }
+
+  .overlay.show li:nth-child(4){
+    transition-delay: .4s;
+  }
+
+  .overlay.show li:nth-child(5){
+    transition-delay: .5s;
+  }
 
   /* conceptのcss */
   #concept{
